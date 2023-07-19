@@ -43,7 +43,7 @@ export class Accordion extends SizedMixin(SpectrumElement, {
      * Allows multiple accordion items to be opened at the same time
      */
     @property({ type: Boolean, reflect: true, attribute: 'allow-multiple' })
-    public allowMultiple = false;
+    public allowMultiple = true;
 
     /**
      * Sets the spacing between the content to borders of an accordion item
